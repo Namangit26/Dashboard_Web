@@ -1,0 +1,51 @@
+.card{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .rr {
+      display: none;
+
+    }
+    .card {
+        display: block;
+    }
+  }
+  .card {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .card-type {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .card-amount {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .card-status.pending {
+    font-size: 14px;
+    color: #ff6600;
+  }  
+  .card-status {
+    font-size: 14px;
+    color: green; /* Default color for pending status */
+  }
+  .card-status.cancelled {
+    color: red;
+  }

@@ -1,0 +1,15 @@
+
+  
+  @media (min-width: 580px) and (max-width: 700px) {
+    .contact {
+      align-items: center;
+      padding: 5px 60px;
+    }
+  }
+  @media (min-width: 700px) and (max-width: 1000px) {
+    .contact {
+      align-items: center;
+      padding: 5px 150px;
+    }
+  }
+  
